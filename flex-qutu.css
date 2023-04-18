@@ -1,0 +1,130 @@
+/*
+github.com/mmdvanazanin
+date: 05.04.2023 -- 12:16
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 450px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    width: 300px;
+    height: 450px;
+    border: 1px solid gray;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.box2:hover{
+    transition: 1s;
+    background-color: rgb(209, 151, 27);
+    transform: scaleY(1.02);
+    color: white;
+}
+.box:hover{
+    transition: 1s;
+    background-color: rgb(209, 151, 27);
+    transform: scaleY(1.02);
+    color: white;
+}
+img{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 100%;
+}
+.box{
+    position: relative;
+}
+.html{
+    position: absolute;
+    top: 90px;
+    left: 135px;
+    font-size: 25px;
+}
+.box2{
+    position: relative;
+}
+
+/*
+github.com/mmdvanazanin
+date: 05.04.2023 -- 12:16
+*/
+
+.css{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    font-size: 25px;
+}
+.java{
+    position: absolute;
+    top: 90px;
+    left: 125px;
+    font-size: 25px;
+}
+.xett1{
+    width: 275px;
+    height: 0;
+    border: 1px solid darkgray;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.xett2{
+    width: 275px;
+    height: 0;
+    border: 1px solid darkgray;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.xett3{
+    width: 275px;
+    height: 0;
+    border: 1px solid darkgray;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+.full{
+    position: absolute;
+    top: 200px;
+    padding: 25px;
+    text-align: center;
+}
+.web{
+    position: absolute;
+    top: 200px;
+    padding: 25px;
+    text-align: center;
+}
+.back{
+    position: absolute;
+    top: 200px;
+    padding: 25px;
+    text-align: center;
+}
+
+/*
+github.com/mmdvanazanin
+date: 05.04.2023 -- 12:16
+*/
